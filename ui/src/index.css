@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  /* font-family: "Poppins", sans-serif; */
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f3f4f6;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a78bfa;
+  border-radius: 8px;
+  border: 1px solid #f3f4f6;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #7c3aed;
+}
